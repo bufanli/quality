@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>mail.from.supplier.answer</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+	// update reason
+	current.reason_and_analysis_result = email.body.reason_and_analysis_result;
+	current.counter_measure = email.body.counter_measure;
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-05 08:39:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3910e5937d11300e87303a973990ed6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>mail.from.supplier.answer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="qarat" source="x_195067_qarat">9d30e09537111300e87303a973990eda</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qarat">9d30e09537111300e87303a973990eda</sys_scope>
+        <sys_update_name>sysevent_in_email_action_e3910e5937d11300e87303a973990ed6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-05 09:19:12</sys_updated_on>
+        <table>x_195067_qarat_pfrs</table>
+        <template>u_string_1DYNAMICb637bd21ef3221002841f7f775c0fbb6^EQ</template>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>

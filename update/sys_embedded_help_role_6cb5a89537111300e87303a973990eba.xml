@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_195067_qarat.buyer" name="x_195067_qarat.buyer">fea56cd537111300e87303a973990eb2</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-05 01:40:35</sys_created_on>
+        <sys_id>6cb5a89537111300e87303a973990eba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fea56cd537111300e87303a973990eb2</sys_name>
+        <sys_package display_value="qarat" source="x_195067_qarat">9d30e09537111300e87303a973990eda</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qarat">9d30e09537111300e87303a973990eda</sys_scope>
+        <sys_update_name>sys_embedded_help_role_6cb5a89537111300e87303a973990eba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-05 01:40:35</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

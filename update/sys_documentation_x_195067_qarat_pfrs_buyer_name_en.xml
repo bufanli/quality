@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="buyer_name" label="事業所" language="en" table="x_195067_qarat_pfrs">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>buyer_name</element>
+            <help/>
+            <hint/>
+            <label>事業所</label>
+            <language>en</language>
+            <name>x_195067_qarat_pfrs</name>
+            <plural>事業所s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-05 01:49:11</sys_created_on>
+            <sys_id>e2a72c9937111300e87303a973990e89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>事業所</sys_name>
+            <sys_package display_value="qarat" source="x_195067_qarat">9d30e09537111300e87303a973990eda</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="qarat">9d30e09537111300e87303a973990eda</sys_scope>
+            <sys_update_name>sys_documentation_x_195067_qarat_pfrs_buyer_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-05 01:49:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
